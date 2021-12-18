@@ -18,7 +18,11 @@ $ git add welcome.html
 $ git add *.html  
 $ git add --all  
 ```  
-將暫存內容提交儲存  
+將暫存內容提交儲存("做了什麼"),只會處理暫存區的內容  
 ```
 $ git commit -m "init"  
+```
+檢視紀錄
+```
+$ git log  
 ```
