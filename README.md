@@ -22,7 +22,8 @@ $ git add --all
 ```
 $ git commit -m "init"  
 ```
-檢視紀錄
+檢視紀錄  
 ```
 $ git log  
+$ git log --oneline --graph #輸出更為精簡
 ```
