@@ -10,5 +10,15 @@ $ git status
 ```
 建立內容為hello之welcome.html檔  
 ```
-$ echo "hello" >welcome.html
+$ echo "hello" >welcome.html  
+```
+讓git開始追蹤(加入到index暫存區)  
+```
+$ git add welcome.html  
+$ git add *.html  
+$ git add --all  
+```  
+將暫存內容提交儲存  
+```
+$ git commit -m "init"  
 ```
