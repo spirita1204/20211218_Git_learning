@@ -4,5 +4,5 @@
 $ git config --global alias.co checkout  
 ```
 ```js
-
+$ git config --global alias.l "log --oneline --graph"
 ```
