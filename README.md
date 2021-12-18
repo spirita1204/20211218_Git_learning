@@ -22,8 +22,11 @@ $ git add --all
 ```
 $ git commit -m "init"  
 ```
-檢視紀錄  
+檢視紀錄(使用GUI介面檢視相對快)   
 ```
 $ git log  
 $ git log --oneline --graph #輸出更為精簡
+$ git log --oneline --graph --author="Ding_Hong_Chen" #查詢特定作者編輯  
+$ git log --oneline --graph --grep="add" #查詢含特定之標籤
+$ git log --oneline --since="9am" --until="12am" --after="2017-01" #查詢特定時間  
 ```
