@@ -24,7 +24,9 @@ $ git commit -m "init"
 ```
 檢視紀錄(使用GUI介面檢視相對快)   
 ```
-$ git log  
+$ git log #檢視全部資訊
+$ git log [file.name] #檢視單一檔案紀錄 (Log Selected)
+$ git log -p [file.name] #檢視單一檔案紀錄(詳細)
 $ git log --oneline --graph #輸出更為精簡
 $ git log --oneline --graph --author="Ding_Hong_Chen" #查詢特定作者編輯  
 $ git log --oneline --graph --grep="add" #查詢含特定之標籤
@@ -37,7 +39,7 @@ $ rm welcome.html $ git add welcome.html
 ```
 取消git控管  
 ```
-$ git rm welcome.html --cached
+$ git rm welcome.html --cached (Stop Tracking)
 ```
 改名  
 ```
@@ -58,3 +60,17 @@ $ mkdir images
 $ touch images/.keep
 # then , add and commit ...
 ```
+有些檔案不想放git內
+```
+$ touch .gitignore #再編輯要忽略之內容(只忽略建立.gitignore後的資料 不然要先git rm [file.name] --cached)
+```
+清除.gitignore的檔案
+```
+$ git clean -fx #f:強制
+```
+抓兇手
+```
+$ git blame index.html (Blame Selected)
+$ git blame -L 5,10 index.html
+```
+
