@@ -52,3 +52,9 @@ $ git commit --amend -m "change commit" #修改最後次commit
 $ git add [file.name]
 $ git commit --amend --no-edit 
 ```
+新增目錄(git計算,產生物件是根據檔案內容作計算)
+```
+$ mkdir images 
+$ touch images/.keep
+# then , add and commit ...
+```
