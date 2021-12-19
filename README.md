@@ -73,4 +73,9 @@ $ git clean -fx #f:強制
 $ git blame index.html (Blame Selected)
 $ git blame -L 5,10 index.html
 ```
-
+把刪除的檔案救回來
+```
+$ git checkout [file.name] #接檔名,路徑=>從.git目錄拉一分到目前工作目錄
+$ git checkout . 
+$ git checkout HEAD~2 [file.name] #拿距離現在兩版本的檔案覆蓋現在工作目錄的檔案,同時更新暫存區狀態
+```
