@@ -98,3 +98,4 @@ Mode   | mixed(default)|soft|hard
 $ git reflog #等同於以下
 $ git log -g
 ```
+
