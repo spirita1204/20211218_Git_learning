@@ -1,5 +1,5 @@
 # Git_learning  
-https://gitbook.tw/
+https://gitbook.tw/  
 設定快捷縮寫  
 ```
 $ git config --global alias.co checkout  
