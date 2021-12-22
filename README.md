@@ -98,4 +98,7 @@ Mode   | mixed(default)|soft|hard
 $ git reflog #等同於以下
 $ git log -g
 ```
+.git目錄下四物件 :
+Instance|Blob|Tree|Commit|Tag     
+---|---|---|---|---|     
 
