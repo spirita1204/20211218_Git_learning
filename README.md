@@ -101,6 +101,6 @@ $ git log -g
 .git目錄下四物件 :
 物件|Blob|Tree|Commit|Tag     
 ---|---|---|---|---|    
-功能|檔案內容|目錄和檔名| |
+功能|檔案內容|目錄和檔名|指向tree|
   
 <img src="https://files.speakerdeck.com/presentations/0cb03cb05e0201303574123138156380/slide_39.jpg" width="200" height="200">
