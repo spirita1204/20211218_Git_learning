@@ -103,4 +103,5 @@ $ git log -g
 ---|---|---|---|---|    
 功能|檔案內容|目錄和檔名| |
   
-![alt text](https://files.speakerdeck.com/presentations/0cb03cb05e0201303574123138156380/slide_39.jpg){ width=50% }
+![](https://files.speakerdeck.com/presentations/0cb03cb05e0201303574123138156380/slide_39.jpg)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
