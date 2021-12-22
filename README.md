@@ -79,7 +79,17 @@ $ git checkout [file.name] #接檔名,路徑=>從.git目錄拉一分到目前工
 $ git checkout . 
 $ git checkout HEAD~2 [file.name] #拿距離現在兩版本的檔案覆蓋現在工作目錄的檔案,同時更新暫存區狀態
 ```
-拆掉commit 
+拆掉最後次commit (RESET Mode : mixed,soft,hard)
 ```
-
+#相對
+$ git reset e23d9ef^ # ^代表前一次 ^^
+$ git reset e23d9ef~5
+$ git reset HEAD^,master^
+#絕對
+$ git reset e23d9ef
 ```
+Age           | Time  | Food | Gold     
+--------------|-------|------|------     
+Feudal Age    | 02:10 |  500 |    0      
+Castle Age    | 02:40 |  800 |  200
+Imperial Age  | 03:30 | 1000 |  800
