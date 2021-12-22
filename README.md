@@ -79,3 +79,7 @@ $ git checkout [file.name] #接檔名,路徑=>從.git目錄拉一分到目前工
 $ git checkout . 
 $ git checkout HEAD~2 [file.name] #拿距離現在兩版本的檔案覆蓋現在工作目錄的檔案,同時更新暫存區狀態
 ```
+拆掉commit 
+```
+
+```
