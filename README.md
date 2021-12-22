@@ -91,7 +91,8 @@ $ git reset e23d9ef
 Mode   | mixed(default)|soft|hard     
 -------|-------|------|------     
 工作目錄| 不變 |  不變 | 丟掉        
-暫存區  | 丟掉 |  不變 | 丟掉
+暫存區  | 丟掉 |  不變 | 丟掉  
+
 紀錄HEAD移動->用以拆掉commit後找回(回朔)  
 ```
 $ git reflog #等同於以下
