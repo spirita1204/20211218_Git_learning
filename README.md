@@ -54,7 +54,7 @@ $ git commit --amend -m "change commit" #修改最後次commit
 $ git add [file.name]
 $ git commit --amend --no-edit 
 ```
-新增目錄(git計算,產生物件是根據檔案內容作計算)
+新增目錄(git計算,產生物件是根據檔案內容作計算)->SHA-1沒內容計算
 ```
 $ mkdir images 
 $ touch images/.keep
@@ -99,6 +99,8 @@ $ git reflog #等同於以下
 $ git log -g
 ```
 .git目錄下四物件 :
-Blob|Tree|Commit|Tag     
----|---|---|---|    
-
+物件|Blob|Tree|Commit|Tag     
+---|---|---|---|---|    
+功能|檔案內容|目錄和檔名| |
+  
+![alt text](https://files.speakerdeck.com/presentations/0cb03cb05e0201303574123138156380/slide_39.jpg)
