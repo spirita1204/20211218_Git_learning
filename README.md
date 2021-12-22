@@ -88,8 +88,7 @@ $ git reset HEAD^,master^
 #絕對
 $ git reset e23d9ef
 ```
-Age           | Time  | Food | Gold     
---------------|-------|------|------     
-Feudal Age    | 02:10 |  500 |    0      
-Castle Age    | 02:40 |  800 |  200
-Imperial Age  | 03:30 | 1000 |  800
+Mode   | mixed(default)|soft|hard     
+-------|-------|------|------     
+工作目錄| 不變 |  不變 | 丟掉        
+暫存區  | 丟掉 |  不變 | 丟掉
