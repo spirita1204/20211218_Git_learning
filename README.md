@@ -79,7 +79,7 @@ $ git checkout [file.name] #接檔名,路徑=>從.git目錄拉一分到目前工
 $ git checkout . 
 $ git checkout HEAD~2 [file.name] #拿距離現在兩版本的檔案覆蓋現在工作目錄的檔案,同時更新暫存區狀態
 ```
-拆掉最後次commit (RESET Mode : mixed,soft,hard)
+拆掉最後次commit (RESET Mode : mixed,soft,hard) ->非真正丟掉(可找回)
 ```
 #相對
 $ git reset e23d9ef^ # ^代表前一次 ^^
@@ -92,3 +92,8 @@ Mode   | mixed(default)|soft|hard
 -------|-------|------|------     
 工作目錄| 不變 |  不變 | 丟掉        
 暫存區  | 丟掉 |  不變 | 丟掉
+紀錄HEAD移動->用以拆掉commit後找回(回朔)  
+```
+$ git reflog #等同於以下
+$ git log -g
+```
