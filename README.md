@@ -104,5 +104,5 @@ $ git log -g
 功能|檔案內容|目錄和檔名| |
   
 ![](https://files.speakerdeck.com/presentations/0cb03cb05e0201303574123138156380/slide_39.jpg)
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://files.speakerdeck.com/presentations/0cb03cb05e0201303574123138156380/slide_39.jpg" width="200" height="400" />
 
